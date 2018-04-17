@@ -1,0 +1,41 @@
+page{
+  width: 100%;
+  height: 100%;
+  background: #ededed;
+}
+.section{
+  background: #fff;
+  display:flex;
+  height: 88rpx;
+  width: 100%;
+  padding: 0 3%;
+  box-sizing: border-box;
+  line-height: 88rpx;
+  font-size: 16px;
+  border-bottom: 1px solid #ededed
+}
+.section input{
+  line-height: 88rpx;
+   height: 88rpx;
+   
+}
+.section .text{
+  width: 25%;
+}
+#mapTo{
+  width: 70%;
+  display: flex;
+  justify-content: space-between
+}
+.section-switch{
+  display: flex;
+  justify-content: space-between;
+  border-bottom:none;
+}
+#sure{
+  background: #6430e1;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: #fff;
+}

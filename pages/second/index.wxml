@@ -1,0 +1,26 @@
+  <form  bindsubmit='formSubmit'>
+  <view class='section'>
+    <text class='text'>所在地</text>
+    <view id='mapTo'>
+    <input type='text' placeholder='' placeholder-style='color:#222'>{{address}}</input>
+    <text bindtap='openMap'>></text>
+    </view>
+  </view>
+  <view class='section'>
+    <text class='text'>详细地址</text>
+    <input type='text' placeholder='重庆市渝中区大坪龙湖时代' placeholder-style='color:#222'></input>
+  </view>
+  <view class='section'>
+    <text class='text'>联系人</text>
+    <input type='text' placeholder='李刚' placeholder-style='color:#222'></input>
+  </view>
+   <view class='section'>
+    <text class='text'>联系电话</text>
+    <input type='text' placeholder='110112113114' placeholder-style='color:#222'></input>
+  </view>
+   <view class='section section-switch'>
+    <text class='text'>默认地址</text>
+    <switch checked='true' color='#6430e1'></switch>
+  </view>
+  <button id='sure'>确定</button>
+</form>  

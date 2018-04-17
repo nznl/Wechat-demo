@@ -1,0 +1,55 @@
+<!--index.wxml-->
+<view class='container'>
+  <view class='swiper-container'>
+    <swiper class='swiper-box' indicator-dots="{{indicatorDots}}" autoplay='{{autoplay}}' duration="{{duration}}" interval='{{interval}}' indicator-active-color="{{indicator}}">
+      <block wx:for="{{banners}}" wx:key="id">
+        <swiper-item>
+          <image data-id='{{item.id}}' src='{{item}}' calss='slide-image' class='imgae-banner'></image>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <image src='../img/works.png' class='msgs'></image>
+  <view id='nav'>
+    <block wx:for="{{nav}}">
+      <view class='nav-section'>
+        <image src='{{item.src}}' class='nav-img'></image>
+        <text class='nav-text'>{{item.text}}</text>
+      </view>
+    </block>
+  </view>
+  <view id='section'>
+    <image src='https://cdn.it120.cc/apifactory/2017/09/15/5acdd8f65ec85b413ee642dda795d835.png_m'></image>
+    <view class='section-text'>
+      <text>促销活动</text>
+      <text>活动number</text>
+    </view>
+  </view>
+  <view id='works'>
+    <text>{{name}}</text>
+    <view class='works-section'>
+      <text>更多</text>
+      <text>more ></text>
+    </view>
+  </view>
+  <view id='designer'>
+    <block wx:for="{{designer}}">
+        <image class="deImg" src='{{item.src}}'></image>
+        <view class='deText'>
+          <text>{{item.name}}</text>
+          <text style='color:#666'>{{item.office}}</text>
+        </view>      
+    </block>
+  </view>
+  <view id='classfiy'>
+    热门分类/标签
+  </view>
+  <view id='btn-text'>
+    <block wx:for="{{btnText}}">
+      <view class='msg1'>{{item.msg1}}</view>
+      <view class='msg2'>{{item.msg2}}</view>
+    </block>
+  </view>
+  <view id='details'>
+  <image src='https://cdn.it120.cc/apifactory/2017/09/15/73560c511f554eb4afd1dcade9d8ef67.png_m' mode='scaleToFill'></image></view>
+</view>

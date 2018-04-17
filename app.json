@@ -1,0 +1,46 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/second/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#888",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "主页",
+      "iconPath": "pages/img/home1.png",
+      "selectedIconPath": "pages/img/home.png"
+    },
+    {
+      "pagePath": "pages/index/index",
+      "text": "作品",
+      "iconPath": "pages/img/works1.png",
+      "selectedIconPath": "pages/img/works.png"
+    },
+    {
+      "pagePath": "pages/index/index",
+      "text": "预约",
+      "iconPath": "pages/img/figure-pricelist.png",
+      "selectedIconPath": "pages/img/figure-pricelist.png"
+    },
+    {
+      "pagePath": "pages/index/index",
+      "text": "发现",
+      "iconPath": "pages/img/home1.png",
+      "selectedIconPath": "pages/img/home.png"
+    },
+    {
+      "pagePath": "pages/second/index",
+      "text": "我的",
+      "iconPath": "pages/img/my1.png",
+      "selectedIconPath": "pages/img/my.png"
+    }
+    ]
+  }
+}
